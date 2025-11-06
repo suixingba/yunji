@@ -1,0 +1,2 @@
+webpackJsonp([6],{"8cYa":function(t,e){},kIi0:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var a={render:function(){var t=this.$createElement;return(this._self._c||t)("div",{attrs:{id:"Software"}},[this._v("\n    双仓送物机器人—格格\n")])},staticRenderFns:[]};var r=n("VU/8")({name:"Software",data:function(){return{}}},a,!1,function(t){n("8cYa")},"data-v-db0cf3c2",null);e.default=r.exports}});
+//# sourceMappingURL=6.b2c24e4badf858a9d87b.js.map

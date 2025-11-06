@@ -1,0 +1,2 @@
+webpackJsonp([8],{"7w7R":function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var a={render:function(){var t=this.$createElement;return(this._self._c||t)("div",{attrs:{id:"smartTown"}},[this._v("\n    单仓送物机器人—润\n")])},staticRenderFns:[]};var r=e("VU/8")({name:"smartTown",data:function(){return{}}},a,!1,function(t){e("mRNa")},"data-v-76c13bbb",null);n.default=r.exports},mRNa:function(t,n){}});
+//# sourceMappingURL=8.797cb5b0d32b1be2f37f.js.map
