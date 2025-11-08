@@ -1,17 +1,19 @@
 <template>
   <div id="footer" class="container-fluid">
     <div class="logo">
-      <img src="@/assets/img/logo.png" alt="logo图">
+      <!-- <img src="@/assets/img/logo.png" alt="logo图"> -->
     </div>
     <p class="address_tel_fax">
-      <span>地址：公司地址</span>
-      <span>Tel：888-888-888</span>
+      <span>地址：安徽省合肥市高新区天乐社区服务中心红枫路8号红枫智谷创业园B2#129室</span>
     </p>
-    <p class="email_wx">
+    <p class="address_tel_fax">
+      <span>电话：13514981116</span>
+    </p>
+    <!-- <p class="email_wx">
       <span>邮箱：xxx@163.com</span>
       <span>微信号：xxx</span>
-    </p>
-    <p class="copy">Copyright &copy; {{ new Date().getFullYear() }} 北京云迹科技股份有限公司</p>
+    </p> -->
+    <p class="copy">Copyright &copy; {{ new Date().getFullYear() }} 合肥宙叶科技有限公司</p>
   </div>
 </template>
 <script>
@@ -33,7 +35,7 @@ export default {
 }
 .logo {
   width: 100%;
-  height: 60px;
+  height: 15px;
 }
 .logo img{
   height: 60px;

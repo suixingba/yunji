@@ -20,7 +20,7 @@ export default new Router({
           name: 'home',
           component: resolve => require(['@/view/HomePage'], resolve),
           meta: {
-            title: '云迹科技'
+            title: '宙叶科技'
           }
         }, {
           path: '/software',
@@ -32,67 +32,31 @@ export default new Router({
           children: [
             {
               path: '/software',
-              redirect: '/software/smartTown'
+              redirect: '/software/gege'
             },
             {
-              path: '/software/smartTown',
+              path: '/software/gege',
               name: 'software',
-              component: resolve => require(['@/view/Software_smartTown'], resolve),
-              meta: {
-                title: '软件产品丨单仓送物机器人—润'
-              }
-            },
-            {
-              path: '/software/bigData',
-              name: 'software',
-              component: resolve => require(['@/view/Software_bigData'], resolve),
+              component: resolve => require(['@/view/Software_gege'], resolve),
               meta: {
                 title: '软件产品丨双仓送物机器人—格格'
               }
+            },
+            {
+              path: '/software/up',
+              name: 'software',
+              component: resolve => require(['@/view/Software_up'], resolve),
+              meta: {
+                title: '软件产品丨新一代酒店多功能服务机器人—UP'
+              }
             }
           ]
-        }, {
-          path: '/service',
-          name: 'service',
-          component: resolve => require(['@/view/Service'], resolve),
-          meta: {
-            title: '相关服务'
-          }
-        }, {
-          path: '/newsinformation',
-          name: 'newsinformation',
-          component: resolve => require(['@/view/NewsInformation'], resolve),
-          meta: {
-            title: '新闻动态'
-          }
         }, {
           path: '/companyintroduction',
           name: 'companyintroduction',
           component: resolve => require(['@/view/CompanyIntroduction'], resolve),
           meta: {
-            title: '关于云迹'
-          }
-        }, {
-          path: '/jobchance',
-          name: 'jobchance',
-          component: resolve => require(['@/view/JobChance'], resolve),
-          meta: {
-            title: '工作机会'
-          }
-        }, {
-          path: '/contactus',
-          name: 'contactus',
-          component: resolve => require(['@/view/ContactUs'], resolve),
-          meta: {
-            title: '联系我们'
-          }
-        },
-        {
-          path: '/servicedetail',
-          name: 'servicedetail',
-          component: resolve => require(['@/view/ServiceDetail'],resolve),
-          meta: {
-            title: '相关服务'
+            title: '关于我们'
           }
         }
       ]

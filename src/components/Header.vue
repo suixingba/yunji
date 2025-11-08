@@ -19,7 +19,8 @@
     <div class="header-nav container hidden-xs">
       <!-- 导航logo -->
       <div class="header-nav-logo">
-        <img src="@/assets/img/logo.png">
+        合肥宙叶科技有限公司
+        <!-- <img src="@/assets/img/logo.png"> -->
       </div>
       <!-- 导航内容 -->
       <ul class="header-nav-wrapper">
@@ -45,7 +46,8 @@
     <!-- 手机导航 -->
     <div class="header-nav-m container-fuild visible-xs">
       <div class="header-nav-m-logo">
-        <img class="center-block" src="@/assets/img/logo.png" alt="logo">
+        合肥宙叶科技有限公司
+        <!-- <img class="center-block" src="@/assets/img/logo.png" alt="logo"> -->
       </div>
       <!-- 导航栏 -->
       <div class="header-nav-m-menu text-center">
@@ -96,17 +98,17 @@ export default {
           name: "软件产品",
           path: "/software",
           children: [
-            {
-              name: "单仓送物机器人——润",
-              path: "/software/smartTown"
-            },
+            // {
+            //   name: "单仓送物机器人——润",
+            //   path: "/software/smartTown"
+            // },
             {
               name: "双仓送物机器人——格格",
-              path: "/software/bigData"
+              path: "/software/gege"
             },
             {
               name: "新一代酒店多功能服务机器人——UP",
-              path: "/software/bigData"
+              path: "/software/up"
             }
           ]
         },
@@ -177,10 +179,13 @@ export default {
 }
 /* 导航栏logo */
 #header .header-nav .header-nav-logo {
-  width: 100px;
   height: 100%;
   float: left;
   position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
 }
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
@@ -292,6 +297,7 @@ export default {
   #header .header-nav-m .header-nav-m-logo {
     height: 80px;
     position: relative;
+    display: none;
   }
   /* 导航栏logo图片 */
   #header .header-nav-m .header-nav-m-logo img {
