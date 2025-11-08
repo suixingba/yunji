@@ -26,55 +26,55 @@ export default {
     return {
       itemList: [
         {
-          path: require("@/assets/img/up_1.PNG"),
+          path: require("@/assets/img/up_1.png"),
         },
         {
-          path: require("@/assets/img/up_2.PNG"),
+          path: require("@/assets/img/up_2.png"),
         },
         {
-          path: require("@/assets/img/up_3.PNG"),
+          path: require("@/assets/img/up_3.png"),
         },
         {
-          path: require("@/assets/img/up_4.PNG"),
+          path: require("@/assets/img/up_4.png"),
         },
         {
-          path: require("@/assets/img/up_5.PNG"),
+          path: require("@/assets/img/up_5.png"),
         },
         {
-          path: require("@/assets/img/up_6.PNG"),
+          path: require("@/assets/img/up_6.png"),
         },
         {
-          path: require("@/assets/img/up_7.PNG"),
+          path: require("@/assets/img/up_7.png"),
         },
         {
-          path: require("@/assets/img/up_8.PNG"),
+          path: require("@/assets/img/up_8.png"),
         },
         {
-          path: require("@/assets/img/up_9.PNG"),
+          path: require("@/assets/img/up_9.png"),
         },
         {
-          path: require("@/assets/img/up_10.PNG"),
+          path: require("@/assets/img/up_10.png"),
         },
         {
-          path: require("@/assets/img/up_11.PNG"),
+          path: require("@/assets/img/up_11.png"),
         },
         {
-          path: require("@/assets/img/up_12.PNG"),
+          path: require("@/assets/img/up_12.png"),
         },
         {
-          path: require("@/assets/img/up_13.PNG"),
+          path: require("@/assets/img/up_13.png"),
         },
         {
-          path: require("@/assets/img/up_14.PNG"),
+          path: require("@/assets/img/up_14.png"),
         },
         {
-          path: require("@/assets/img/up_15.PNG"),
+          path: require("@/assets/img/up_15.png"),
         },
         {
-          path: require("@/assets/img/up_16.PNG"),
+          path: require("@/assets/img/up_16.png"),
         },
         {
-          path: require("@/assets/img/up_17.PNG"),
+          path: require("@/assets/img/up_17.png"),
         },
       ],
     };
