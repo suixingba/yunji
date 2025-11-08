@@ -26,55 +26,55 @@ export default {
     return {
       itemList: [
         {
-          path: require("@/assets/img/up_1.png"),
+          path: require("@/assets/img/up介绍_1.png"),
         },
         {
-          path: require("@/assets/img/up_2.png"),
+          path: require("@/assets/img/up介绍_2.png"),
         },
         {
-          path: require("@/assets/img/up_3.png"),
+          path: require("@/assets/img/up介绍_3.png"),
         },
         {
-          path: require("@/assets/img/up_4.png"),
+          path: require("@/assets/img/up介绍_4.png"),
         },
         {
-          path: require("@/assets/img/up_5.png"),
+          path: require("@/assets/img/up介绍_5.png"),
         },
         {
-          path: require("@/assets/img/up_6.png"),
+          path: require("@/assets/img/up介绍_6.png"),
         },
         {
-          path: require("@/assets/img/up_7.png"),
+          path: require("@/assets/img/up介绍_7.png"),
         },
         {
-          path: require("@/assets/img/up_8.png"),
+          path: require("@/assets/img/up介绍_8.png"),
         },
         {
-          path: require("@/assets/img/up_9.png"),
+          path: require("@/assets/img/up介绍_9.png"),
         },
         {
-          path: require("@/assets/img/up_10.png"),
+          path: require("@/assets/img/up介绍_10.png"),
         },
         {
-          path: require("@/assets/img/up_11.png"),
+          path: require("@/assets/img/up介绍_11.png"),
         },
         {
-          path: require("@/assets/img/up_12.png"),
+          path: require("@/assets/img/up介绍_12.png"),
         },
         {
-          path: require("@/assets/img/up_13.png"),
+          path: require("@/assets/img/up介绍_13.png"),
         },
         {
-          path: require("@/assets/img/up_14.png"),
+          path: require("@/assets/img/up介绍_14.png"),
         },
         {
-          path: require("@/assets/img/up_15.png"),
+          path: require("@/assets/img/up介绍_15.png"),
         },
         {
-          path: require("@/assets/img/up_16.png"),
+          path: require("@/assets/img/up介绍_16.png"),
         },
         {
-          path: require("@/assets/img/up_17.png"),
+          path: require("@/assets/img/up介绍_17.png"),
         },
       ],
     };
